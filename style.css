@@ -37,15 +37,27 @@
 
 /* Formatting */
 
-.vertical
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.vertical, .verticalPage
 {
     display: flex;
     flex-direction: column;
 }
 
-.horizontal, .header, .footer
+.horizontal, .header, .footer, .attention
 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.verticalPage
+{
+    height: 100vh;
+    justify-content: space-between;
 }
