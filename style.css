@@ -34,3 +34,18 @@
 {
     color: #1F2937;
 }
+
+/* Formatting */
+
+.vertical
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal, .header, .footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
