@@ -1,4 +1,5 @@
-.header, .footer
+/* Background colours */
+.header, .footer, .dark
 {
     background-color: #1F2937;
 }
@@ -11,4 +12,15 @@
 .quote
 {
     background-color: #E5E7EB;
+}
+
+/* Text colours */
+.header, .footer, .dark
+{
+    color: #F9FAF8;
+}
+
+.header .secondaryText, .dark .secondaryText
+{
+    color: #E5E7EB;
 }
