@@ -101,3 +101,14 @@ a:hover
 {
     gap: 20px;
 }
+
+.horizontal.leftRightPadding.gaps
+{
+    gap: 30px;
+    padding-bottom: 4%;
+}
+
+.horizontal.leftRightPadding.gaps .vertical
+{
+    gap: 10px;
+}
