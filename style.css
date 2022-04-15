@@ -43,6 +43,17 @@
     padding: 0px;
 }
 
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
 .vertical, .verticalPage, .header
 {
     display: flex;
@@ -82,4 +93,9 @@
 .horizontal.leftRightPadding.spaceBetween
 {
     justify-content: space-between;
+}
+
+.horizontal.gaps
+{
+    gap: 10px;
 }
