@@ -93,9 +93,11 @@ a:hover
 .horizontal.leftRightPadding.spaceBetween
 {
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .horizontal.gaps
 {
-    gap: 10px;
+    gap: 20px;
 }
