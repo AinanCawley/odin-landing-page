@@ -80,8 +80,9 @@ a:hover
 
 .button1
 {
-    border-radius: 4px;
+    border-radius: 10px;
     align-self: flex-start;
+    padding: 10px;
 }
 
 .horizontal.leftRightPadding
