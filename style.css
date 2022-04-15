@@ -113,3 +113,8 @@ a:hover
 {
     gap: 10px;
 }
+
+.vertical.light
+{
+    align-items: center;
+}
