@@ -118,3 +118,14 @@ a:hover
 {
     align-items: center;
 }
+
+.card
+{
+    width: 100px;
+    display: flex;
+}
+
+img
+{
+    max-width: 100%;
+}
