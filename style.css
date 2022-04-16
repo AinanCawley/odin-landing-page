@@ -150,8 +150,26 @@ img
     padding-bottom: 80px;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+}
+
+#quoteContainer
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+#longQuote
+{
+    max-width: 600px;
+    text-align: left;
+    font-style: italic;
+}
+
+#shortQuote
+{
+    text-align: right;
+    font-weight: bold;
 }
 
 .attention
