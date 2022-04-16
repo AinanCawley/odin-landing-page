@@ -128,8 +128,13 @@ a:hover
 .horizontal.leftRightPadding.gaps .vertical
 {
     gap: 10px;
+    flex: 1;
 }
 
+.horizontal.leftRightPadding.gaps .img
+{
+    flex: 1;
+}
 .vertical.light
 {
     align-items: center;
