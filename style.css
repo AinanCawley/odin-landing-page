@@ -1,3 +1,7 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
 /* Background colours */
 .header, .footer, .dark
 {
@@ -46,7 +50,7 @@
 {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a
