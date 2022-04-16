@@ -149,6 +149,9 @@ img
     padding-top: 80px;
     padding-bottom: 80px;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .attention
