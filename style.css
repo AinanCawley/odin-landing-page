@@ -110,6 +110,7 @@ a:hover
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 120px;
+    flex-wrap: wrap;
 }
 
 .horizontal.gaps
@@ -121,6 +122,7 @@ a:hover
 {
     gap: 30px;
     padding-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .horizontal.leftRightPadding.gaps .vertical
@@ -135,15 +137,33 @@ a:hover
     padding-bottom: 40px;
 }
 
-.card
+#randomInformation
 {
-    width: 100px;
-    display: flex;
+    padding-bottom: 40px;
 }
 
-img
+.vertical.light .horizontal
+{
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card img
 {
     max-width: 100%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .vertical.quote
