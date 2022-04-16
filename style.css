@@ -83,6 +83,11 @@ a:hover
     flex-grow: 1;
 }
 
+.verticalPage .header
+{
+    padding-bottom: 20px;
+}
+
 .button1
 {
     border-radius: 10px;
@@ -90,6 +95,7 @@ a:hover
     padding: 8px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 10px;
 }
 
 .horizontal.leftRightPadding
@@ -102,7 +108,7 @@ a:hover
 {
     justify-content: space-between;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 120px;
 }
 
 .horizontal.gaps
@@ -139,7 +145,9 @@ img
 
 .attention
 {
-    padding: 20px;
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
     border-radius: 10px;
     gap: 20px;
 }
@@ -152,4 +160,5 @@ img
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 40px;
 }
