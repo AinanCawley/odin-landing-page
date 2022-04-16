@@ -95,7 +95,7 @@ a:hover
 {
     justify-content: space-between;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .horizontal.gaps
@@ -106,7 +106,7 @@ a:hover
 .horizontal.leftRightPadding.gaps
 {
     gap: 30px;
-    padding-bottom: 4%;
+    padding-bottom: 20px;
 }
 
 .horizontal.leftRightPadding.gaps .vertical
@@ -128,4 +128,9 @@ a:hover
 img
 {
     max-width: 100%;
+}
+
+.attention
+{
+    padding: 20px;
 }
