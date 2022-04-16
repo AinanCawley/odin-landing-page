@@ -143,8 +143,17 @@ img
     max-width: 100%;
 }
 
-.attention
+.vertical.quote
 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    align-items: center;
+}
+
+.attention
+{   
+    margin-top: 80px;
+    margin-bottom: 80px;
     padding: 40px;
     padding-left: 80px;
     padding-right: 80px;
